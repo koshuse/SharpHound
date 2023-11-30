@@ -177,6 +177,7 @@ namespace Sharphound
 
                 resolved |= option switch
                 {
+                    /*
                     CollectionMethodOptions.Group => ResolvedCollectionMethod.Group,
                     CollectionMethodOptions.Session => ResolvedCollectionMethod.Session,
                     CollectionMethodOptions.LoggedOn => ResolvedCollectionMethod.LoggedOn,
@@ -193,10 +194,13 @@ namespace Sharphound
                     CollectionMethodOptions.LocalGroup => ResolvedCollectionMethod.LocalGroups,
                     CollectionMethodOptions.UserRights => ResolvedCollectionMethod.UserRights,
                     CollectionMethodOptions.Default => ResolvedCollectionMethod.Default,
+                    */
                     CollectionMethodOptions.DCOnly => ResolvedCollectionMethod.DCOnly,
+                    /*
                     CollectionMethodOptions.ComputerOnly => ResolvedCollectionMethod.ComputerOnly,
                     CollectionMethodOptions.All => ResolvedCollectionMethod.All,
                     CollectionMethodOptions.None => ResolvedCollectionMethod.None,
+                    */
                     _ => throw new ArgumentOutOfRangeException()
                 };
 

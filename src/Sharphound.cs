@@ -1,20 +1,4 @@
-﻿// ---------------------------------------------------- //
-//    ______                 __ __                  __  //
-//   / __/ /  ___ ________  / // /_   __ _____  ___/ /  //
-//  _\ \/ _ \/ _ `/ __/ _ \/ _  / _ \/ // / _ \/ _  /   //
-// /___/_//_/\_,_/_/ / .__/_//_/\___/\_,_/_//_/\_,_/    //
-//                  /_/                                 //
-//  app type    : console                               //
-//  dotnet ver. : 462                                   //
-//  client ver  : 3?                                    //
-//  license     : open....?                             //
-//------------------------------------------------------//
-// creational_pattern : Inherit from System.CommandLine //
-// structural_pattern  : Chain Of Responsibility         //
-// behavioral_pattern : inherit from SharpHound3        //
-// ---------------------------------------------------- //
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.DirectoryServices.ActiveDirectory;
 using System.DirectoryServices.Protocols;
